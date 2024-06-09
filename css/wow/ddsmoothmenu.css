@@ -1,0 +1,303 @@
+/*-------------------------Menu Doc -------------------------------*/
+.navbar{
+    min-height: 40px;
+    
+    background-color: #0479df;
+  }
+  .navbar-default {
+      background-color: #ef569b;
+      border-color: #FFF;
+  }
+  
+  .navbar-default .navbar-brand {
+      color: #FFF;
+  }
+  
+  .navbar-default .navbar-brand:hover {
+      color: #FFB800;
+  }
+  .navbar-brand{
+      margin-bottom: 25px;
+      margin-top: -15px;
+  }
+  /*.navbar-default .navbar-nav > .active > a {
+      color: #FFF;
+      background-color: #ef569b;
+  }*/
+  
+  .navbar-default .navbar-nav > li > a {
+      color: #fff;
+  }
+  .navbar-brand img{
+          width: 110%;
+  }
+  .dropdown-menu > li > a,
+  .navbar-default .navbar-nav > li > a:hover,
+  .navbar-default .navbar-nav > li > a:focus,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+      color: #FFF;
+  }
+  .navbar-nav{
+          padding-top: 17px;
+  }
+  .navbar-default .navbar-nav > .open > a,
+  .navbar-default .navbar-nav > .open > a:hover,
+  .navbar-default .navbar-nav > .open > a:focus {
+      color: #555;
+      background-color: #e7e7e7;
+  }
+  
+  .dropdown-menu {
+      background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .dropdown-menu > li > a:hover {
+      color: #555!important;
+  }
+  #cssmenu{display:none;}
+  .title_footer{
+      font-size:21px;
+  }
+  #pvt_divClick{
+          margin-left:8px;
+      }
+      .left_hi{
+          display:none;
+  }
+  .gio a{  float: right;
+      padding-right: 10px;
+      font-size: 12px;}
+      #body>.container{
+          padding:0px;
+      }
+  @media screen and (max-width: 767px) {
+  #thumbs2 div.inner li{
+      width:250px !important;
+      margin-bottom:20px  !important;
+  }
+  #thumbs2 div.inner {
+      width:270px;}
+  .gio a{  float: none;
+      padding-right: 10px;
+      font-size: 12px;
+      margin-left:30%;}
+  .left_hi{
+             
+      display:block;
+  }
+  #rw-cont ul {
+      width: 100%;}
+  .ddsmoothmenu-v ul li a {    padding: 6px 0px;}
+  .news-content ul li { padding-left:0px;}
+      #main_menu{
+          display:none;
+      }
+      #cssmenu{display:block; margin-bottom:10px;}
+      .menu{
+      text-align:center;
+  
+      }
+      .an{display:none;
+      }
+      .menu ul li a{font-size:15px !important;}
+      
+      .title{padding-left:0px;}
+      .menu2 ul li{
+          margin-left:10%;
+      }
+      #text-footer span{
+      font-size:10px;
+      }
+      #intro h3 { font-size:15px;}
+      #pvt_divClick{
+          margin-left:0px;
+      }
+      .moi{margin-bottom:10px;}
+      .MagicToolboxMessage{font-size:9px;}
+      .quykhach{
+          font-size:7px;
+      }
+      .new-equipment{
+       margin-top:26px;
+      }
+      .caption{font-size:5px; text-align:left;}
+      .general-image img{width:100%;}
+      .content span{
+      font-size:13px;
+      }
+      
+  }
+  @media screen and (max-width: 568px) {
+  .menu2 ul li{
+          margin-left:8%;
+      }
+  }
+  
+  #smoothmenu2 ul li:hover{
+  background:#F1F1F1;
+  }
+  .ddsmoothmenu ul {
+      padding: 0;
+      list-style-type: none;
+      margin: 0;
+      width: 182px;
+  }
+  .ddsmoothmenu ul li {
+      position: relative;
+  }
+  /* Top level menu links style */
+  .ddsmoothmenu ul li a {
+      background:url(../images/line-menu.html) right no-repeat;
+      color: #FFF;
+      font-size: 12px;
+      font-weight: bold;
+      padding-left: 23px;
+      line-height: 40px;
+      display: block;
+  }
+  .ddsmoothmenu ul li a:focus, .ddsmoothmenu ul li a:hover, .ddsmoothmenu ul li a:active {
+      color: #000;
+      font-weight: bold;
+      text-decoration:none;
+  }
+  /*Sub level menu items */
+  .ddsmoothmenu ul li ul {
+      height:32px;
+      line-height:32px;
+      color:#000;
+      position: absolute;
+      width: auto;
+      min-width:190px;
+      white-space:nowrap;
+      top: 0;
+      left: 0;
+      visibility: hidden;
+  }
+  .ddsmoothmenu ul li ul li a {
+      line-height:30px;
+      margin: 0;
+  }
+  /* Holly Hack for IE \*/
+  * html .ddsmoothmenu ul li {
+      float: left;
+      height: 1%;
+  }
+  * html .ddsmoothmenu ul li a {
+      height: 1%;
+  }
+  /* End */
+  
+  
+  .ddsmoothmenu3{
+      font-size: 12px;
+      position: relative;
+      z-index: 100; margin-bottom: 7px;
+  margin: auto;
+  }
+  .ddsmoothmenu3 ul{
+      z-index:100;
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+  }
+  
+  /*Top level list items*/
+  .ddsmoothmenu3 ul li{
+      list-style: none;
+      position: relative;
+      float: left;
+      height:40px;
+  }
+  .ddsmoothmenu3 ul li:last-child{
+  background:none;
+  }
+  .ddsmoothmenu3 ul li a h2:hover{
+    background: #046bc5;
+  }
+  .ddsmoothmenu3 ul li ul li{width:190px;overflow:hidden;}
+  /*Top level menu link items style*/
+  .ddsmoothmenu3 ul li a h2{
+      white-space: nowrap;
+      float: left;
+      list-style: none;
+      margin-right: 0px;
+      height: 40px;
+      text-transform: uppercase;
+      font-size: 13px;
+      line-height: 45px;
+      color: #fff;
+      padding-left: 25px;
+      padding-right: 25px;
+      margin-top:0px;
+  }
+  @font-face {
+      font-family: 'comsegoe';
+      src: url('../fonts/com_segoe_ui_light.html');
+           
+  }
+  * html .ddsmoothmenu3 ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+      display: inline-block;
+      
+  }
+  .ddsmoothmenu3 ul li a{padding-right:0px!important;}
+  .ddsmoothmenu3 ul li a:hover{
+      color:#ffd800;
+      text-decoration: none;
+  }
+  
+  /*1st sub level menu*/
+  .ddsmoothmenu3 ul li ul{
+  z-index: 999999999;
+      position: absolute;
+      left: 0;
+      display: none;
+      visibility: hidden;width: 180px!important;
+      background:#0479df;	padding-left: 10px;
+  }
+  .ddsmoothmenu3 ul li ul li{
+  height:auto!important;
+  background:none!important;
+  }
+  /*All subsequent sub menu levels vertical offset after 1st level sub menu */
+  .ddsmoothmenu3 ul li ul li ul{
+      top: 0;
+  }
+  
+  /* Sub level menu links style */
+  .ddsmoothmenu3 ul li ul li a{
+      width: 180px;
+      font-size: 12px;
+      color: #fff;
+      margin: 0;
+      line-height: 28px;
+      border-top-width: 0;
+      font-weight:bold;
+      z-index: 100;
+  }
+  /* Holly Hack for IE \*/
+  * html .ddsmoothmenu3 ul li {
+      float: left;
+      height: 1%;
+  }
+  * html .ddsmoothmenu3 ul li a {
+      height: 1%;
+  }
+  
+  
+  /* ######### CSS classes applied to down and right arrow images  ######### */
+  
+  .downarrowclass {
+      display:none;
+  }
+  .rightarrowclass {
+      display:none;
+  }
+  /* ######### CSS for shadow added to sub menus  ######### */
+  
+  .ddshadow {
+      display: none;
+      background: none;
+  }
+
+  
